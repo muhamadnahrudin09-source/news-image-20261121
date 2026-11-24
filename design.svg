@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
   <style>
     .paper-bg { fill: #f6f1e7; }
-    .masthead-title { font-family: 'Georgia', 'Times New Roman', serif; font-size: 72px; font-weight: bold; fill: #111111; letter-spacing: 2px; text-anchor: middle; }
+    .masthead-title { font-family: 'Georgia', 'Times New Roman', serif; font-size: 80px; font-weight: bold; fill: #111111; letter-spacing: 2px; text-anchor: middle; }
     .masthead-sub { font-family: 'Arial', 'Helvetica', sans-serif; font-size: 13px; font-weight: bold; fill: #333333; letter-spacing: 3px; text-anchor: middle; text-transform: uppercase; }
     .lead-headline { font-family: 'Georgia', 'Times New Roman', serif; font-size: 34px; font-weight: bold; fill: #111111; letter-spacing: -0.5px; }
     .lead-subline { font-family: 'Arial', 'Helvetica', sans-serif; font-size: 16px; fill: #333333; line-height: 1.4; }
@@ -25,11 +25,14 @@
   <line x1="52" y1="58" x2="972" y2="58" class="rule-dark"/>
   <line x1="52" y1="64" x2="972" y2="64" class="rule-light"/>
   
-  <text x="512" y="125" class="masthead-title">THE WORLD</text>
+  <text x="512" y="130" class="masthead-title">THE WORLD</text>
   
-  <line x1="52" y1="145" x2="972" y2="145" class="rule-light"/>
-  <text x="512" y="165" class="masthead-sub">Friday, 20 November 2026 &amp;middot; World News in One Page</text>
-  <line x1="52" y1="178" x2="972" y2="178" class="rule-dark"/>
+  <!-- Thin double rule beneath masthead title -->
+  <line x1="52" y1="146" x2="972" y2="146" class="rule-light"/>
+  <line x1="52" y1="150" x2="972" y2="150" class="rule-light"/>
+
+  <text x="512" y="170" class="masthead-sub">Friday, 20 November 2026 &amp;middot; World News in One Page</text>
+  <line x1="52" y1="182" x2="972" y2="182" class="rule-dark"/>
 
   <!-- LEAD ART & STORY (Top ~45%, y: 190 to 555) -->
   <g transform="translate(52, 195)">
@@ -85,23 +88,23 @@
   <line x1="52" y1="485" x2="972" y2="485" class="rule-dark"/>
 
   <!-- 2-COLUMN GRID OF 6 SHORT STORIES (y: 500 to 935) -->
-  <!-- Column 1: x = 52 to 490 (width 438) -->
-  <!-- Column 2: x = 534 to 972 (width 438) -->
+  <!-- Column 1: x = 52 to 492 (width 440) -->
+  <!-- Column 2: x = 532 to 972 (width 440) -->
 
   <!-- Story 1 (Col 1, Top) -->
   <g transform="translate(52, 505)">
     <rect x="0" y="0" width="16" height="16" class="accent-red"/>
     <text x="26" y="13" class="story-headline">TRUMP TOUTS SUMMIT, EYES KIM MEETING</text>
     <text x="0" y="38" class="story-desc">Post-summit press conference in Washington highlights diplomatic pivot.</text>
-    <line x1="0" y1="55" x2="438" y2="55" class="rule-light"/>
+    <line x1="0" y1="55" x2="440" y2="55" class="rule-light"/>
   </g>
 
   <!-- Story 2 (Col 2, Top) -->
-  <g transform="translate(534, 505)">
+  <g transform="translate(532, 505)">
     <rect x="0" y="0" width="16" height="16" class="accent-red"/>
     <text x="26" y="13" class="story-headline">ANTHROPIC IPO: BIGGEST EVER</text>
     <text x="0" y="38" class="story-desc">AI lab surges in record market debut as valuation shatters records.</text>
-    <line x1="0" y1="55" x2="438" y2="55" class="rule-light"/>
+    <line x1="0" y1="55" x2="440" y2="55" class="rule-light"/>
   </g>
 
   <!-- Story 3 (Col 1, Mid) -->
@@ -109,15 +112,15 @@
     <rect x="0" y="0" width="16" height="16" class="accent-red"/>
     <text x="26" y="13" class="story-headline">UK AND EU HOLD RARE SUMMIT</text>
     <text x="0" y="38" class="story-desc">Burnham seeks to mend Brexit damage through renewed bilateral pacts.</text>
-    <line x1="0" y1="55" x2="438" y2="55" class="rule-light"/>
+    <line x1="0" y1="55" x2="440" y2="55" class="rule-light"/>
   </g>
 
   <!-- Story 4 (Col 2, Mid) -->
-  <g transform="translate(534, 580)">
+  <g transform="translate(532, 580)">
     <rect x="0" y="0" width="16" height="16" class="accent-red"/>
     <text x="26" y="13" class="story-headline">ICJ: MYANMAR GUILTY OF GENOCIDE</text>
     <text x="0" y="38" class="story-desc">Rohingya ruling delivers historic condemnation; immediate sanctions urged.</text>
-    <line x1="0" y1="55" x2="438" y2="55" class="rule-light"/>
+    <line x1="0" y1="55" x2="440" y2="55" class="rule-light"/>
   </g>
 
   <!-- Story 5 (Col 1, Low) -->
@@ -125,15 +128,15 @@
     <rect x="0" y="0" width="16" height="16" class="accent-red"/>
     <text x="26" y="13" class="story-headline">COP STALLED ON FOSSIL FUELS</text>
     <text x="0" y="38" class="story-desc">No phaseout deal reached in Turkiye; climate finance gaps remain wide.</text>
-    <line x1="0" y1="55" x2="438" y2="55" class="rule-light"/>
+    <line x1="0" y1="55" x2="440" y2="55" class="rule-light"/>
   </g>
 
   <!-- Story 6 (Col 2, Low) -->
-  <g transform="translate(534, 655)">
+  <g transform="translate(532, 655)">
     <rect x="0" y="0" width="16" height="16" class="accent-red"/>
     <text x="26" y="13" class="story-headline">FIONA THE HIPPO DIES AT 9</text>
     <text x="0" y="38" class="story-desc">Cincinnati Zoo icon mourned globally after swallowing visitor-dropped hat.</text>
-    <line x1="0" y1="55" x2="438" y2="55" class="rule-light"/>
+    <line x1="0" y1="55" x2="440" y2="55" class="rule-light"/>
   </g>
 
   <!-- Additional Briefs section / Extra editorial filler block to fill layout nicely -->
@@ -143,17 +146,17 @@
     <line x1="20" y1="35" x2="900" y2="35" class="rule-dark"/>
     
     <g transform="translate(20, 50)">
-      <text x="0" y="0" font-family="Arial" font-size="12" font-weight="bold" fill="#111">• Nvidia SEC Inquiry:</text>
-      <text x="140" y="0" font-family="Arial" font-size="12" fill="#333">Stock extends $2.5T rout amid federal accounting probe.</text>
+      <text x="0" y="0" font-family="Arial" font-size="12" font-weight="bold" fill="#111">• Nvidia Inquiry:</text>
+      <text x="135" y="0" font-family="Arial" font-size="12" fill="#333">Stock extends $2.5T rout amid federal accounting probe.</text>
       
-      <text x="0" y="30" font-family="Arial" font-size="12" font-weight="bold" fill="#111">• FBI System Breach:</text>
-      <text x="140" y="30" font-family="Arial" font-size="12" fill="#333">Second major cyber intrusion reported this calendar year.</text>
+      <text x="0" y="30" font-family="Arial" font-size="12" font-weight="bold" fill="#111">• FBI Breach:</text>
+      <text x="135" y="30" font-family="Arial" font-size="12" fill="#333">Second major cyber intrusion reported this calendar year.</text>
 
-      <text x="0" y="60" font-family="Arial" font-size="12" font-weight="bold" fill="#111">• GTA 6 Sales Record:</text>
-      <text x="140" y="60" font-family="Arial" font-size="12" fill="#333">Industry estimates cross $2.3 billion worldwide in launch week.</text>
+      <text x="0" y="60" font-family="Arial" font-size="12" font-weight="bold" fill="#111">• GTA 6 Sales:</text>
+      <text x="135" y="60" font-family="Arial" font-size="12" fill="#333">Industry estimates cross $2.3 billion worldwide in launch week.</text>
 
-      <text x="0" y="90" font-family="Arial" font-size="12" font-weight="bold" fill="#111">• Killer Robot Accord:</text>
-      <text x="140" y="90" font-family="Arial" font-size="12" fill="#333">UN states agree to talks aiming for strict regulation by 2028.</text>
+      <text x="0" y="90" font-family="Arial" font-size="12" font-weight="bold" fill="#111">• Robot Accord:</text>
+      <text x="135" y="90" font-family="Arial" font-size="12" fill="#333">UN states agree to talks aiming for strict regulation by 2028.</text>
     </g>
   </g>
 
